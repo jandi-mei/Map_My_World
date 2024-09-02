@@ -14,6 +14,7 @@
 
       <!-- Basic RTAB-Map Parameters -->
       <param name="database_path"       type="string" value="$(arg database_path)"/>
+      <param name="SURF/descriptor" value="SURF"/> <!-- Specify SURF as the descriptor -->
       <param name="frame_id"            type="string" value="robot_footprint"/>
       <param name="odom_frame_id"       type="string" value="odom"/>
       <param name="subscribe_depth"     type="bool"   value="true"/>
@@ -49,7 +50,7 @@
       <param name="Reg/Strategy" type="string" value="0"/>
 
       <!-- Minimum visual inliers to accept loop closure -->
-      <param name="Vis/MinInliers" type="string" value="25"/>
+      <param name="Vis/MinInliers" type="string" value="30"/>
 
       <!-- Set to false to avoid saving data when robot is not moving -->
       <param name="Mem/NotLinkedNodesKept" type="string" value="false"/>
