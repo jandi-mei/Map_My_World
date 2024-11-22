@@ -28,7 +28,8 @@ project_directory/
     │ └── my_map.yaml 
     ├── world/ 
     │ └── my_world.world 
-    └── src/ ├── map_generator.cpp 
+    └── src/ 
+    ├── map_generator.cpp 
     └── robot_control.cpp
 
 
